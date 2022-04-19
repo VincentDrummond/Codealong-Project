@@ -1,0 +1,136 @@
+header h2 {
+    font-size: 2.875em;      /* this is 46px (the font size needed)
+                            divided by 16 (the default font size)*/
+}
+
+h3 {
+    font-size: 1.5em;
+}
+
+body > header p {
+    font-size: 1.25em;      /* this is 20px (the font size needed)
+                            divided by 16 (the default font size)*/
+}
+
+aside h2 {
+    font-size: 2em;
+}
+
+aside p {
+    font-size: 1.125em;
+}
+
+.large-wrapper {
+    max-width:1110px;
+    margin: 0 auto;
+}
+
+.supercharge-workflow h3 {
+    font-size: 2em;
+}
+
+.supercharge-workflow p {
+    font-size: 1.125em;
+}
+
+.clip-anywhere h3 {
+    font-size: 2em;
+}
+
+.clip-anywhere p {
+    font-size: 1.125em;
+}
+
+section header p {
+    font-size: 1.125em;
+}
+
+.keep-track ul {
+    text-align: left;
+    min-width:250px;
+    margin-left:80px;
+}
+
+.keep-track .picturewrapper {
+    display:flex;
+    justify-content: flex-end;
+    max-width:920px;
+    margin: 0 auto;
+}
+
+.keep-track img {
+    max-width:500px;
+}
+
+.wrapper {
+    max-width: 730px;
+    margin: 0 auto;
+}
+
+.download-buttons {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+.download-buttons a {
+    display: inline-block;
+    flex-grow:0;
+    flex-shrink: 0;
+    margin:1em 0.5em
+}
+
+.supercharge-workflow .feature p {
+    max-width:600px;
+    margin-left:auto;
+    margin-right: auto;
+}
+
+.partners .feature {
+    flex-direction: row;
+}
+
+/* footer start */
+footer {
+    height:300px;
+    text-align: left;;
+}
+
+footer .large-wrapper {
+    display:flex;
+}
+
+footer .navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-grow:1;
+}
+
+footer h2 {
+    margin-right: 50px;
+    padding-top: 50px;
+}
+
+footer nav {
+    margin: 0;
+    padding-right: 30px;
+    padding-top: 50px;
+    max-width: 600px;
+}
+
+footer nav a {
+    display: block;
+    float:left;
+    width:160px;
+    margin-top: 0;
+}
+
+address svg {
+    margin:10px;
+}
+/* footer end */
+
+
+
